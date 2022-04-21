@@ -9,11 +9,13 @@ var gamePlaying = false;
 var tonePlaying = false;
 var volume = 0.5;  //must be between 0.0 and 1.0
 var guessCounter = 0;
+var mistakes = 0;
 
 function startGame(){
     //initialize game variables
     progress = 0;
     gamePlaying = true;
+    mistakes = 0;
     // swap the Start and Stop buttons
     document.getElementById("startBtn").classList.add("hidden");
     document.getElementById("stopBtn").classList.remove("hidden");
@@ -93,7 +95,7 @@ function playClueSequence(){
   for(let i=0;i<=progress;i++){ // for each clue that is revealed so far
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms")
     setTimeout(playSingleClue,delay,pattern[i]) // set a timeout to play that clue
-    delay += clueHoldTime 
+    delay += clueHoldTime; 
     delay += cluePauseTime;
   }
 }
@@ -130,10 +132,15 @@ function guess(btn){
       //so far so good... check the next guess
       guessCounter++;
     }
-  }else{
+  }
+  
+  else{
     //Guess was incorrect
     //GAME OVER: LOSE!
+    mistakes++;
+   if (mistakes == 3){
     loseGame();
+  }
   }
       
 }
