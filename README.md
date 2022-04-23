@@ -4,7 +4,7 @@
 
 Submitted by: **Aqil Farooqui**
 
-Time spent: **#4** hours spent in total
+Time spent: **#9** hours spent in total
 
 Link to project: (insert your link here, should start with https://glitch.com/edit/#!/superb-intriguing-radon?path=README.md%3A1%3A0...)
 
@@ -50,24 +50,25 @@ https://www.w3schools.com/
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
  
-  A challenge I came across was particularly in the mistake feature of my project. A lot of questions popped in my head on how should I approach adding this feature, whether it should be the amount of mistakes or should the game reset every time I make a mistake until I used up all my chances. This showed me that whenever it comes to adding some originality to anything, it requires a specific approach and game plan. Once that game plan is figured out, we can then understand how we want to implement the specific in the most logical way possible. I had to write out a few steps in my head and I I understood that when adding the mistake feature, I had to ensure that the mistake counter approaches the desired values without quitting the game, so I had to determine which block of code goes where. The whole idea was that I understood what lines of code I wanted to write but I had to implement it in a specific order so that the feature can be logically executed.
+ A challenge I came across was particularly in the mistake feature of my project. A lot of questions popped in my head on how I should approach adding this feature, whether it should be the amount of mistakes or should the game reset every time I make a mistake until I use up all my chances. This showed me that whenever it comes to adding some originality to anything, it requires a specific approach and game plan. Once that game plan is figured out, we can then understand how we want to implement the specific in the most logical way possible. I had to write out a few steps in my head and I understood that when adding the mistake feature, I had to ensure that the mistake counter approaches the desired values without quitting the game, so I had to determine which block of code goes where. I also had to go through each function of the application to ensure that the specific function was not being compromised due to the addition of my feature. The whole idea was that I understood what lines of code I wanted to write but I had to implement it in a specific order so that the feature could be logically executed.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 
-  Some questions I had about web development after completing my submission is how can I implement certain Javascript frameworks to increase interactivity with the application. Personally, I am always looking how to improve something and optimize it to attain the best output possible. I understand that with the addition of certain frameworks, I can add more interactivity and features, and potentially redesign the game into something that is a lot more challenging and appealing. 
+  Some questions I had about web development after completing my submission is how can I implement certain Javascript frameworks to increase interactivity with the application. Personally, I am always looking for ways to improve something and optimize it to attain the best output possible. I understand that with the addition of certain frameworks, I can add more interactivity and features, and potentially redesign the game into something that is a lot more challenging and appealing. I also had a question on if this is an application I can make into an online application where other users can interact with each other and possibly play together as well. I am really curious to see how I can accomplish that specifically. 
 
     
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
 
-    I would look to adding additional features and create more interactivity with the game, such as asking certain questions to open a different modes to the game. I would take it a step further to add more functions to the project and create a more in-depth logic behind the project so the application becomes a product of challenges and efficieny. 
+    I would look to add additional features and create more interactivity with the game, such as asking certain questions to open different modes to the game. I would take it a step further to add more functions to the project and create a more in-depth logic behind the project so the application becomes a product of challenges and efficiency. For example, the recipient is able to play in different modes, whether fast paced or slow based, with a different level mode, whether it is easy, medium, or hard. I want to be able to give the recipient the ability to interact with the application and not feel limited with the options given to them.
+ 
 
 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://www.loom.com/share/f58c7f8aa575446393f7bcc427198fca)
 
 
 ## License
